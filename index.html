@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speak</title>
+    <link rel="stylesheet" href="./public/css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="header__logo">
+                <span class="header__logo-mobile">
+                    <img src="./public/assets/logo-mobile.png" alt="logo">
+                </span>
+				<span class="header__logo-desktop">
+					<img src="./public/assets/logo.png" alt="logo">
+				</span>
+            </a>
+			<div class="header__nav">
+				<nav class="header__nav">
+					<ul class="header__nav-list">
+						<li class="header__nav-list-item active">
+							<a href="#">About us</a>
+						</li>
+						<li class="header__nav-list-item">
+							<a href="#">Blog</a>
+						</li>
+						<li class="header__nav-list-item">
+							<a href="#">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+            <div class="header__right">
+				<button class="header__talk button-primary">
+					<a href="/">Начать беседу</a>
+				</button>
+                <div class="select">
+                    <span class="select__current">
+                        <img class="select__current-img" src="./public/assets/flags-1.png" alt="flags">
+						<div class="select__current-info">
+							<span class="select__current-info-type">en</span>
+							<img
+								class="select__current-info-arrow"
+								src="./public/assets/arrow-down.png"
+								alt="arrow"
+							>
+						</div>
+                    </span>
+                    <ul class="select__content hidden">
+                        <li class="select__content-item active">
+                            <img class="select__content-item-img" src="./public/assets/flags-1.png" alt="en">
+                        </li>
+                        <li class="select__content-item">
+                            <img class="select__content-item-img" src="./public/assets/flags-2.png" alt="ru">
+                        </li>
+                    </ul>
+                </div>
+				<button class="header__right-login button-primary">
+					<a href="#">Войти</a>
+				</button>
+				<img class="header__menu-mobile-open" src="./public/assets/burger_menu.png" alt="logo" />
+            </div>
+            <div class="header__menu-mobile-wrapper">
+                <div class="header__menu-mobile-content">
+                    <img
+                        class="header__menu-mobile-close"
+                        src="./public/assets/close.png"
+                        alt="close"
+                    />
+                    <ul class="header__menu-mobile-content-list">
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="welcome" id="welcome">
+            <div class="container">
+                <header class="welcome__header">
+                    <h2 class="welcome__subtitle subtitle-primary">+300 прошедших отбор психологов</h2>
+                    <h1 class="welcome__title title-primary">
+                        <span>Сессии с психологом</span>
+                        <span>Онлайн</span>
+                    </h1>
+                    <button class="welcome__talk button-primary">Начать беседу</button>
+                </header>
+                <img class="welcome__img" src="./public/assets/welcome-man.png" alt="welcome man">
+            </div>
+        </section>
+        <section class="psychologist" id="psychologist">
+            <div class="container">
+				<iframe class="psychologist__video" width="1842" height="840" src="https://www.youtube.com/embed/G1hKzCkywM8"
+					title="6 Hour 4K Beautiful places Aerial Views" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen></iframe>
+                <div class="psychologist__content">
+                    <h1 class="psychologist__title title-primary">Скачайте бесплатно приложение SPEAK</h1>
+                    <div class="psychologist__description">
+                        <span class="psychologist__logo">
+                            <img src="./public/assets/logo-small.png" alt="logo">
+                        </span>
+                        <div class="psychologist__description-text">
+                            <h3 class="psychologist__description-title">speak</h3>
+                            <ul class="psychologist__description-list">
+                                <li>онлайн сессии с психологом</li>
+                                <li>доступно для iOS и Android</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="psychologist__download-list">
+                        <li>
+                            <a href="#">
+                                <img src="./public/assets/playstore.png" alt="playstore">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./public/assets/appstore.png" alt="appstore">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="workers" id="workers">
+            <div class="container">
+                <h1 class="workers__title title-primary">Психологи работающие с актуальными темами</h1>
+                <ul class="workers__themes">
+                    <li>
+                        <a href="#">Чувства</a>
+                    </li>
+                    <li>
+                        <a href="#">Одиночество</a>
+                    </li>
+                    <li>
+                        <a href="#">Вредные привычки</a>
+                    </li>
+                    <li>
+                        <a href="#">Отношения</a>
+                    </li>
+                    <li>
+                        <a href="#">Работа</a>
+                    </li>
+                    <li>
+                        <a href="#">Одиночество</a>
+                    </li>
+                    <li>
+                        <a href="#">Отношения с близкими</a>
+                    </li>
+                    <li>
+                        <a href="#">+ 300 психологов</a>
+                    </li>
+                </ul>
+                <div class="workers__slider slider">
+                    <ul class="workers__slider-list slider__list"></ul>
+                    <ul class="workers__slider-points slider__points"></ul>
+                </div>
+            </div>
+        </section>
+        <section class="help" id="help">
+            <div class="container">
+                <div class="help__info">
+                    <h1 class="help__title title-primary">Поможем вам</h1>
+                    <ul class="help__list">
+                        <li class="help__list-item">
+                            <span class="help__list-item-img">
+                                <img src="./public/assets/success.png" alt="success">
+                            </span>
+                            <p class="help__list-item-text">Разрешить причины сложных отношений с партнером</p>
+                        </li>
+                        <li class="help__list-item">
+                            <span class="help__list-item-img">
+                                <img src="./public/assets/success.png" alt="success">
+                            </span>
+                            <p class="help__list-item-text">Снять или снизить остроту переживаний</p>
+                        </li>
+                        <li class="help__list-item">
+                            <span class="help__list-item-img">
+                                <img src="./public/assets/success.png" alt="success">
+                            </span>
+                            <p class="help__list-item-text">Справиться с выгоранием на работе и найти мотивацию</p>
+                        </li>
+                        <li class="help__list-item">
+                            <span class="help__list-item-img">
+                                <img src="./public/assets/success.png" alt="success">
+                            </span>
+                            <p class="help__list-item-text">Понять себя в отношениях с близкими людьми</p>
+                        </li>
+                        <li class="help__list-item">
+                            <span class="help__list-item-img">
+                                <img src="./public/assets/success.png" alt="success">
+                            </span>
+                            <p class="help__list-item-text">Найти себя и понимать свои желания</p>
+                        </li>
+                        <li class="help__list-item">
+                            <span class="help__list-item-img">
+                                <img src="./public/assets/success.png" alt="success">
+                            </span>
+                            <p class="help__list-item-text">Исследовать и управлять изменениями в своей жизни</p>
+                        </li>
+                    </ul>
+                </div>
+                <img class="help__footer-image" src="./public/assets/help.png" alt="help" />
+            </div>
+        </section>
+        <section class="advantages" id="advantages">
+            <div class="container">
+                <header class="advantages__header">
+                    <img
+                        class="advantages__header-img"
+                        src="./public/assets/advantages-phone.png"
+                        alt="phone"
+                    />
+                </header>
+                <div class="advantages__info">
+                    <h1 class="advantages__title title-primary">Преимущества онлайн сессий с психологом</h1>
+                    <ul class="advantages__list">
+                        <li class="advantages__list-item">
+                            <span class="advantages__list-item-dot"></span>
+                            <div class="advantages__list-item-content">
+                                <h3 class="advantages__list-item-title title-primary">Занимайтесь где и как удобно</h3>
+                                <p class="advantages__list-item-text">
+                                    Дома или в поездке и в любом часовом поясе
+                                </p>
+                            </div>
+                        </li>
+                        <li class="advantages__list-item">
+                            <span class="advantages__list-item-dot"></span>
+                            <div class="advantages__list-item-content">
+                                <h3 class="advantages__list-item-title title-primary">Меньше забот- больше мотивации</h3>
+                                <p class="advantages__list-item-text">
+                                    Не тратьте время на дорогу и управляйте занятиями в два клика
+                                </p>
+                            </div>
+                        </li>
+                        <li class="advantages__list-item">
+                            <span class="advantages__list-item-dot"></span>
+                            <div class="advantages__list-item-content">
+                                <h3 class="advantages__list-item-title title-primary">Доверяйте себе</h3>
+                                <p class="advantages__list-item-text">
+                                    Выбирайте среди проверенных психологов, которые специаллизируются на ваших запросах
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="selection" id="selection">
+            <div class="container">
+                <header class="selection__header">
+                    <h1 class="selection__title title-primary">Как мы отбираем специалистов?</h1>
+                    <h2 class="selection__subtitle subtitle-primary">Отбор проходят меньше 10% специаллистов</h2>
+                </header>
+                <div class="selection__content">
+                    <ul class="selection__content-list">
+                        <li class="selection__content-list-item">
+                            <span class="selection__content-num">1</span>
+                            <div class="selection__content-description">
+                                <h3 class="selection__content-title title-primary">Документы об образовании</h3>
+                                <p class="selection__content-text">
+                                    Обязательно иметь высшее психологическое образование и сертификаты для ведения психотерапии
+                                </p>
+                            </div>
+                        </li>
+                        <li class="selection__content-list-item">
+                            <span class="selection__content-num">2</span>
+                            <div class="selection__content-description">
+                                <h3 class="selection__content-title title-primary">Опыт частной практики и личной терапии</h3>
+                                <p class="selection__content-text">
+                                    Нужно не менее 3-х лет частной практики, личная терапия и регулярные супервизии
+                                </p>
+                            </div>
+                        </li>
+                        <li class="selection__content-list-item">
+                            <span class="selection__content-num">3</span>
+                            <div class="selection__content-description">
+                                <h3 class="selection__content-title title-primary">Собеседование с нашим экспертом-ментором</h3>
+                                <p class="selection__content-text">
+                                    Отслеживаются коммуникативные способности, уровень эмпатии, манера и стиль беседы,  проффесиональные компетенции
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <img
+                        class="selection__content-image"
+                        src="./public/assets/selection.png"
+                        alt="man with phone"
+                    />
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+				<h1 class="about__title title-primary">О сервисе</h1>
+				<div class="about__wrapper">
+					<header class="about__header">
+						<ul class="about__header-list">
+							<li class="about__header-list-item">
+								<span class="about__header-list-item-title">900+</span>
+								<p class="about__header-list-item-text">
+									регистраций вчера
+								</p>
+							</li>
+							<li class="about__header-list-item">
+								<span class="about__header-list-item-title">75 000+</span>
+								<p class="about__header-list-item-text">
+									проведено сессий
+								</p>
+							</li>
+							<li class="about__header-list-item">
+								<span class="about__header-list-item-title">354+</span>
+								<p class="about__header-list-item-text">
+									психологов
+								</p>
+							</li>
+						</ul>
+					</header>
+					<iframe class="about__video" width="1842" height="840" src="https://www.youtube.com/embed/G1hKzCkywM8"
+						title="6 Hour 4K Beautiful places Aerial Views" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen></iframe>
+				</div>
+                <ul class="about__assortment">
+                    <li class="about__assortment-item">
+                        <img class="about__assortment-item-img" src="./public/assets/later.png" alt="later" />
+                        <div class="about__assortment-content">
+                            <h3 class="about__assortment-content-title title-primary">Подбор “По позже”</h3>
+                            <p class="about__assortment-content-text">
+                                Подбор с возможностью бронирование сессии на будущее
+                            </p>
+                        </div>
+                    </li>
+                    <li class="about__assortment-item">
+                        <img class="about__assortment-item-img" src="./public/assets/time.png" alt="time" />
+                        <div class="about__assortment-content">
+                            <h3 class="about__assortment-content-title title-primary">Подбор “Сейчас”</h3>
+                            <p class="about__assortment-content-text">
+                                Подбор с возможностью начала сессии “здесь и сейчас”
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="arranged" id="arranged">
+            <div class="container">
+                <header class="arranged__header">
+                    <h1 class="arranged__header-title title-primary">Как это устроено</h1>
+                    <ul class="arranged__header-list">
+                        <li class="arranged__header-list-item active" data-num="1">1</li>
+                        <li class="arranged__header-list-item" data-num="2">2</li>
+                        <li class="arranged__header-list-item" data-num="3">3</li>
+                        <li class="arranged__header-list-item" data-num="4">4</li>
+                    </ul>
+                </header>
+                <ul class="arranged__content">
+                    <li class="arranged__content-item" data-content="1">
+                        <header class="arranged__content-header">
+                            <img src="./public/assets/arranged-phone.png" alt="phone" />
+                        </header>
+                        <div class="arranged__content-info">
+                            <h3 class="arranged__content-info-title">Заполните простую анкету</h3>
+                            <p class="arranged__content-info-text">Расскажите, что вас беспокоит и что важно в психологе. </p>
+                        </div>
+                    </li>
+                    <li class="arranged__content-item hidden" data-content="2">
+                        <header class="arranged__content-header">
+                            <img src="./public/assets/arranged-phone.png" alt="phone" />
+                        </header>
+                        <div class="arranged__content-info">
+                            <h3 class="arranged__content-info-title">Выберите психолога</h3>
+                            <p class="arranged__content-info-text">Выберите понравившегося психолога</p>
+                        </div>
+                    </li>
+                    <li class="arranged__content-item hidden" data-content="3">
+                        <header class="arranged__content-header">
+                            <img src="./public/assets/arranged-phone.png" alt="phone" />
+                        </header>
+                        <div class="arranged__content-info">
+                            <h3 class="arranged__content-info-title">Выберите способ связи с психологом</h3>
+                            <p class="arranged__content-info-text">
+                                49руб/мин по <span class="subtitle-primary">аудио/видео связи</span>
+                                200руб за 24 часа <span class="subtitle-primary">чата + аудио сообщения</span> 
+                            </p>
+                        </div>
+                    </li>
+                    <li class="arranged__content-item hidden" data-content="4">
+                        <header class="arranged__content-header">
+                            <img src="./public/assets/arranged-phone.png" alt="phone" />
+                        </header>
+                        <div class="arranged__content-info">
+                            <h3 class="arranged__content-info-title">Начните общение</h3>
+                            <p class="arranged__content-info-text">
+                                Все общение происходит через платформу SPEAK. Вслучае если психолог вам не понравится, вы можете заменить его без дополнительных переплат
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+				<div class="arranged__desktop">
+					<ul class="arranged__desktop-list">
+						<li class="arranged__desktop-list-item">
+							<span class="arranged__desktop-list-item-dot">1</span>
+							<div class="arranged__desktop-list-item-info">
+								<h3 class="arranged__desktop-list-item-title title-primary">Заполните простую анкету</h3>
+								<p class="arranged__desktop-list-item-text">
+									Расскажите, что вас беспокоит и что важно в психологе.
+								</p>
+							</div>
+						</li>
+						<li class="arranged__desktop-list-item">
+							<span class="arranged__desktop-list-item-dot">3</span>
+							<div class="arranged__desktop-list-item-info">
+								<h3 class="arranged__desktop-list-item-title title-primary">Выберите способ связи с психологом</h3>
+								<p class="arranged__desktop-list-item-text">
+									49руб/мин по <span class="subtitle-primary">аудио/видео связи</span>
+									200руб за 24 часа <span class="subtitle-primary">чата + аудио сообщения</span>
+								</p>
+							</div>
+						</li>
+					</ul>
+					<img class="arranged__image" src="./public/assets/arranged-phone.png" alt="phone" />
+					<img class="arranged__desktop-image" src="./public/assets/arranged-phone-desktop.png" alt="phone">
+					<ul class="arranged__desktop-list">
+						<li class="arranged__desktop-list-item">
+							<span class="arranged__desktop-list-item-dot active">2</span>
+							<div class="arranged__desktop-list-item-info">
+								<h3 class="arranged__desktop-list-item-title title-primary">Выберите психолога</h3>
+								<p class="arranged__desktop-list-item-text">
+									Выберите понравившегося психолога
+								</p>
+							</div>
+						</li>
+						<li class="arranged__desktop-list-item">
+							<span class="arranged__desktop-list-item-dot">4</span>
+							<div class="arranged__desktop-list-item-info">
+								<h3 class="arranged__desktop-list-item-title title-primary">Начните общение</h3>
+								<p class="arranged__desktop-list-item-text">
+									Все общение происходит через платформу SPEAK. Вслучае если психолог вам не понравится, вы можете заменить его без
+									дополнительных переплат
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+                <button class="arranged__content-info-talk button-outline">
+                    <a href="#">Начать общение</a>
+                </button>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <div class="container">
+                <h1 class="services__title title-primary">Услуги</h1>
+                <div class="services__cards">
+                    <div class="services__cards-audio">
+                        <span class="services__cards-audio-tag">
+                            Популярное
+                            <img src="./public/assets/tag-star.png" alt="star" />
+                        </span>
+                        <header class="services__cards-audio-header">
+                            <h3 class="services__cards-audio-header-title">Аудио/Видео сессии</h3>
+                            <div class="services__cards-audio-header-payment">
+                                <span class="services__cards-audio-header-payment-price">49₽</span>
+                                <span class="services__cards-audio-header-payment-slash">/</span>
+                                <span class="services__cards-audio-header-payment-time">1 минута</span>
+                            </div>
+                        </header>
+                        <ul class="services__cards-audio-list">
+                            <li class="services__cards-audio-list-item">
+                                <span class="services__cards-audio-list-item-success">
+                                    <img src="./public/assets/success-white.png" alt="success" />
+                                </span>
+                                <p class="services__cards-audio-list-item-text">
+                                    Безлимитный доступа к чату с психологом до начала сессии
+                                </p>
+                            </li>
+                            <li class="services__cards-audio-list-item">
+                                <span class="services__cards-audio-list-item-success">
+                                    <img src="./public/assets/success-white.png" alt="success" />
+                                </span>
+                                <p class="services__cards-audio-list-item-text">
+                                    Аудио/Видео звонки
+                                </p>
+                            </li>
+                            <li class="services__cards-audio-list-item">
+                                <span class="services__cards-audio-list-item-success">
+                                    <img src="./public/assets/success-white.png" alt="success" />
+                                </span>
+                                <p class="services__cards-audio-list-item-text">
+                                    Нет лимитов по времени разговора
+                                </p>
+                            </li>
+                        </ul>
+                        <footer class="services__cards-audio-footer">
+                            <div class="services__cards-audio-footer-price">
+                                <div class="services__cards-audio-footer-price-counter">
+                                    <span class="services__cards-audio-footer-price-counter-minus services__cards-audio-footer-price-counter-do">
+                                        <img src="./public/assets/icon_play.png" alt="minus" />
+                                    </span>
+                                    <input class="services__cards-audio-footer-price-counter-value" type="number" value="50" min="1" />
+                                    <span class="services__cards-audio-footer-price-counter-plus services__cards-audio-footer-price-counter-do">
+                                        <img src="./public/assets/icon_play.png" alt="plus" />
+                                    </span>
+                                </div>
+                                <div class="services__cards-audio-footer-price-result">
+                                    <span class="services__cards-audio-footer-price-result-min">min</span>
+                                    <div class="services__cards-audio-footer-price-result-price">
+                                        <span class="services__cards-audio-footer-price-result-value">2450</span>
+                                        <span class="services__cards-audio-footer-price-result-symbol">₽</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="services__cards-audio-footer-go button-outline">
+                                <a href="#">Перейти</a>
+                            </button>
+                        </footer>
+                    </div>
+                    <div class="services__cards-chat">
+                        <header class="services__cards-chat-header">
+                            <h3 class="services__cards-chat-header-subtitle title-primary">24 часа чата</h3>
+                            <span class="services__cards-chat-header-title">
+                                <h1 class="title-primary">4200₽</h1>
+                                <span class="services__cards-chat-header-title-slash">/</span>
+                                <span class="services__cards-chat-header-title-subtitle">24 часа</span>
+                            </span>
+                        </header>
+                        <ul class="services__cards-chat-list">
+                            <li class="services__cards-chat-list-item">
+                                <span class="services__cards-chat-list-item-success">
+                                    <img src="./public/assets/success.png" alt="success">
+                                </span>
+                                <p class="services_-cards-chat-list-item-text">
+                                    24 часа доступа к чату с психологом
+                                </p>
+                            </li>
+                            <li class="services__cards-chat-list-item">
+                                <span class="services__cards-chat-list-item-success">
+                                    <img src="./public/assets/success.png" alt="success">
+                                </span>
+                                <p class="services_-cards-chat-list-item-text">
+                                    Аудио сообщения
+                                </p>
+                            </li>
+                        </ul>
+                        <button class="services__cards-chat-go button-outline">
+                            <a href="#">Перейти</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="app" id="app">
+            <div class="container">
+                <img class="app__image" src="./public/assets/app-phone.png" alt="phone" />
+				<img class="app__image-desktop" src="./public/assets/app-phone-desktop.png" alt="phone" />
+                <div class="psychologist__content">
+                    <h1 class="psychologist__title title-primary">Скачайте бесплатно приложение SPEAK</h1>
+                    <div class="psychologist__description">
+                        <span class="psychologist__logo">
+                            <img src="./public/assets/logo-small.png" alt="logo">
+                        </span>
+                        <div class="psychologist__description-text">
+                            <h3 class="psychologist__description-title">speak</h3>
+                            <ul class="psychologist__description-list">
+                                <li>онлайн сессии с психологом</li>
+                                <li>доступно для iOS и Android</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="psychologist__download-list">
+                        <li>
+                            <a href="#">
+                                <img src="./public/assets/playstore.png" alt="playstore">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./public/assets/appstore.png" alt="appstore">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+        <section class="reviews" id="reviews">
+            <div class="container">
+                <h1 class="reviews__title title-primary">Отзывы</h1>
+                <div class="reviews__slider slider">
+                    <ul class="reviews__slider-list slider__list"></ul>
+                    <ul class="reviews__slider-points slider__points"></ul>
+                </div>
+            </div>
+        </section>
+        <section class="doctor" id="doctor">
+            <div class="container">
+                <header class="doctor__header">
+                    <h1 class="doctor__header-title title-primary">Детский психолог онлайн</h1>
+                </header>
+                <ul class="doctor__list">
+					<li class="doctor__content-list-item">
+						<h3 class="doctor__list-item-title">Чем поможет детский психолог онлайн?</h3>
+						<p class="doctor__list-item-description">
+							Каждый родитель хочет, чтобы его ребенок рос сильной уравновешенной личностью. Мы понимаем, что именно в детстве
+							формируются зачатки характера. Как справиться с возникающими проблемами, как выстроить отношения с ребенком,
+							чтобы он доверял вам? На эти и другие вопросы поможет ответить детский психолог онлайн.
+						</p>
+					</li>
+					<li class="doctor__content-list-item">
+						<h3 class="doctor__list-item-title">Преимущества онлайн-консультации детского психолога</h3>
+						<p class="doctor__list-item-description">
+							Главный плюс сеанса в таком формате – экономия времени. Вам не придется тратить время на дорогу и долгие сборы.
+							Все, что нужно – компьютер или смартфон, микрофон и блокнот с ручкой, чтобы записывать важную информацию. Если
+							вам или ребенку тяжело общаться с незнакомым человеком лично, онлайн-связь в этом случае упростит дело.
+						</p>
+					</li>
+					<li class="doctor__content-list-item">
+						<h3 class="doctor__list-item-title">Когда нужна помощь детского психолога онлайн?</h3>
+						<p class="doctor__list-item-description">
+							Онлайн-консультация детского психолога может быть полезна, если у вас есть вопросы по таким темам, как:
+						</p>
+						<ul class="doctor__list-item-info">
+							<li class="doctor__list-item-info-point">
+								<span class="doctor__list-item-info-point-dot"></span>
+								<p class="doctor__list-item-info-point-text">Плохая успеваемость;</p>
+							</li>
+							<li class="doctor__list-item-info-point">
+								<span class="doctor__list-item-info-point-dot"></span>
+								<p class="doctor__list-item-info-point-text">Стеснительность;</p>
+							</li>
+							<li class="doctor__list-item-info-point">
+								<span class="doctor__list-item-info-point-dot"></span>
+								<p class="doctor__list-item-info-point-text">Цифровая зависимость;</p>
+							</li>
+							<li class="doctor__list-item-info-point">
+								<span class="doctor__list-item-info-point-dot"></span>
+								<p class="doctor__list-item-info-point-text">Агрессия;</p>
+							</li>
+							<li class="doctor__list-item-info-point">
+								<span class="doctor__list-item-info-point-dot"></span>
+								<p class="doctor__list-item-info-point-text">Потеря близкого в семье;</p>
+							</li>
+							<li class="doctor__list-item-info-point">
+								<span class="doctor__list-item-info-point-dot"></span>
+								<p class="doctor__list-item-info-point-text">Возрастной кризис;</p>
+							</li>
+							<li class="doctor__list-item-info-point">
+								<span class="doctor__list-item-info-point-dot"></span>
+								<p class="doctor__list-item-info-point-text">Подготовка к детскому саду или школе;</p>
+							</li>
+							<li class="doctor__list-item-info-point">
+								<span class="doctor__list-item-info-point-dot"></span>
+								<p class="doctor__list-item-info-point-text">Профориентация.</p>
+							</li>
+						</ul>
+						<p class="doctor__list-item-description">
+							Это лишь часть тем, которые можно затронуть. Помните, что, если возникает ситуация, в которой вы самостоятельно
+							не можете разобраться, сейчас консультация детского психолога онлайн поможет найти ответы.
+						</p>
+					</li>
+					<li class="doctor__content-list-item">
+						<h3 class="doctor__list-item-title">Как проходит онлайн-консультация детского психолога?</h3>
+						<p class="doctor__list-item-description">
+							Задать вопрос детскому психологу онлайн может как сам ребенок, так и родитель. На первом сеансе обычно
+							присутствует родитель или опекун, а также сам «виновник торжества». Следующие сеансы могут быть и без взрослого,
+							если ребенок сам в состоянии связаться через интернет.
+						</p>
+						<p class="doctor__list-item-description">
+							Бывает и так, что сначала ребенку присутствовать необязательно. В этом случае работа происходит с родителем, а
+							если есть необходимость, позже присоединяется ребенок.
+						</p>
+						<p class="doctor__list-item-description">
+							Психолог по детским вопросам онлайн может попросить ребенка нарисовать что-то, далее по этим рисункам он
+							проведет диагностику. Родитель тоже является звеном связи с психикой ребенка. Через него психолог может сделать
+							вывод о том, какая проблема сейчас назрела.
+						</p>
+						<p class="doctor__list-item-description">
+							Если специалист попросит вас пройти обследование или сдать анализы для более ясной картины, не пугайтесь, это
+							нормально. Таким образом, вы оба сможете исключить какие-либо диагнозы
+						</p>
+					</li>
+                    <li class="doctor__content-list-item">
+                        <h3 class="doctor__list-item-title">О чем поговорить с детским психологом?</h3>
+                        <p class="doctor__list-item-description">
+                            Родители малышей часто обращаются с вопросами об адаптации в детском саду. Есть тревожные мамы, которые сомневаются, стоит ли отдавать малыша в сад или же пока слишком рано. Очень многих волнует, что воспитатель будет срываться на ребенка. Это логично, ведь в силу того, что в СМИ регулярно появляются жуткие новости о чудовищных ЧП в детсадах, беспокойство обосновано. 
+                        </p>
+                        <p class="doctor__list-item-description">
+                            Отдельный вопрос подготовки к саду. В интернете полно информации в таком ключе: «ребенок должен научиться самостоятельно есть, ходить в туалет и засыпать сам перед тем, как идти в сад». Особо мнительные беспрекословно верят, другие понимают: ребенок ничего никому не должен. Его невозможно научить чему-то, пока он сам не захочет делать это. «Дрессировке» малыши не поддаются. Но пугаться не стоит, в любом случае, воспитатели будут помогать малышам в этих вопросах. Главное – настроиться на позитив и верить в хорошее.
+                        </p>
+                        <p class="doctor__list-item-description">
+                            Дети постарше сталкиваются с проблемами переходного возраста, неуверенностью в себе, безответной любовью и другими. Если вы понимаете, что вам с чадом необходима онлайн-консультация, вы можете выбрать специалиста на нашем сайте.
+                        </p>
+                    </li>
+                </ul>
+				<div class="doctor__content-desktop">
+					<ul class="doctor__list-desktop">
+						<li class="doctor__list-item">
+							<h3 class="doctor__list-item-title">Чем поможет детский психолог онлайн?</h3>
+							<p class="doctor__list-item-description">
+								Каждый родитель хочет, чтобы его ребенок рос сильной уравновешенной личностью. Мы понимаем, что именно в детстве
+								формируются зачатки характера. Как справиться с возникающими проблемами, как выстроить отношения с ребенком,
+								чтобы он доверял вам? На эти и другие вопросы поможет ответить детский психолог онлайн.
+							</p>
+						</li>
+						<li class="doctor__list-item">
+							<h3 class="doctor__list-item-title">Преимущества онлайн-консультации детского психолога</h3>
+							<p class="doctor__list-item-description">
+								Главный плюс сеанса в таком формате – экономия времени. Вам не придется тратить время на дорогу и долгие сборы.
+								Все, что нужно – компьютер или смартфон, микрофон и блокнот с ручкой, чтобы записывать важную информацию. Если
+								вам или ребенку тяжело общаться с незнакомым человеком лично, онлайн-связь в этом случае упростит дело.
+							</p>
+						</li>
+						<li class="doctor__list-item">
+							<h3 class="doctor__list-item-title">Когда нужна помощь детского психолога онлайн?</h3>
+							<p class="doctor__list-item-description">
+								Онлайн-консультация детского психолога может быть полезна, если у вас есть вопросы по таким темам, как:
+							</p>
+							<ul class="doctor__list-item-info">
+								<li class="doctor__list-item-info-point">
+									<span class="doctor__list-item-info-point-dot"></span>
+									<p class="doctor__list-item-info-point-text">Плохая успеваемость;</p>
+								</li>
+								<li class="doctor__list-item-info-point">
+									<span class="doctor__list-item-info-point-dot"></span>
+									<p class="doctor__list-item-info-point-text">Стеснительность;</p>
+								</li>
+								<li class="doctor__list-item-info-point">
+									<span class="doctor__list-item-info-point-dot"></span>
+									<p class="doctor__list-item-info-point-text">Цифровая зависимость;</p>
+								</li>
+								<li class="doctor__list-item-info-point">
+									<span class="doctor__list-item-info-point-dot"></span>
+									<p class="doctor__list-item-info-point-text">Агрессия;</p>
+								</li>
+								<li class="doctor__list-item-info-point">
+									<span class="doctor__list-item-info-point-dot"></span>
+									<p class="doctor__list-item-info-point-text">Потеря близкого в семье;</p>
+								</li>
+								<li class="doctor__list-item-info-point">
+									<span class="doctor__list-item-info-point-dot"></span>
+									<p class="doctor__list-item-info-point-text">Возрастной кризис;</p>
+								</li>
+								<li class="doctor__list-item-info-point">
+									<span class="doctor__list-item-info-point-dot"></span>
+									<p class="doctor__list-item-info-point-text">Подготовка к детскому саду или школе;</p>
+								</li>
+								<li class="doctor__list-item-info-point">
+									<span class="doctor__list-item-info-point-dot"></span>
+									<p class="doctor__list-item-info-point-text">Профориентация.</p>
+								</li>
+							</ul>
+							<p class="doctor__list-item-description">
+								Это лишь часть тем, которые можно затронуть. Помните, что, если возникает ситуация, в которой вы самостоятельно
+								не можете разобраться, сейчас консультация детского психолога онлайн поможет найти ответы.
+							</p>
+						</li>
+						<li class="doctor__list-item">
+							<h3 class="doctor__list-item-title">Как проходит онлайн-консультация детского психолога?</h3>
+							<p class="doctor__list-item-description">
+								Задать вопрос детскому психологу онлайн может как сам ребенок, так и родитель.
+							</p>
+						</li>
+					</ul>
+					<ul class="doctor__list-desktop">
+						<li class="doctor__content-list-item">
+							<p class="doctor__list-item-description">
+								На первом сеансе обычно присутствует родитель или опекун, а также сам «виновник торжества». Следующие сеансы могут быть и без взрослого,
+								если ребенок сам в состоянии связаться через интернет.
+							</p>
+							<p class="doctor__list-item-description">
+								Бывает и так, что сначала ребенку присутствовать необязательно. В этом случае работа происходит с родителем, а
+								если есть необходимость, позже присоединяется ребенок.
+							</p>
+							<p class="doctor__list-item-description">
+								Психолог по детским вопросам онлайн может попросить ребенка нарисовать что-то, далее по этим рисункам он
+								проведет диагностику. Родитель тоже является звеном связи с психикой ребенка. Через него психолог может сделать
+								вывод о том, какая проблема сейчас назрела.
+							</p>
+							<p class="doctor__list-item-description">
+								Если специалист попросит вас пройти обследование или сдать анализы для более ясной картины, не пугайтесь, это
+								нормально. Таким образом, вы оба сможете исключить какие-либо диагнозы
+							</p>
+						</li>
+						<li class="doctor__content-list-item">
+							<h3 class="doctor__list-item-title">О чем поговорить с детским психологом?</h3>
+							<p class="doctor__list-item-description">
+								Родители малышей часто обращаются с вопросами об адаптации в детском саду. Есть тревожные мамы, которые
+								сомневаются, стоит ли отдавать малыша в сад или же пока слишком рано. Очень многих волнует, что воспитатель
+								будет срываться на ребенка. Это логично, ведь в силу того, что в СМИ регулярно появляются жуткие новости о
+								чудовищных ЧП в детсадах, беспокойство обосновано.
+							</p>
+							<p class="doctor__list-item-description">
+								Отдельный вопрос подготовки к саду. В интернете полно информации в таком ключе: «ребенок должен научиться
+								самостоятельно есть, ходить в туалет и засыпать сам перед тем, как идти в сад». Особо мнительные беспрекословно
+								верят, другие понимают: ребенок ничего никому не должен. Его невозможно научить чему-то, пока он сам не захочет
+								делать это. «Дрессировке» малыши не поддаются. Но пугаться не стоит, в любом случае, воспитатели будут помогать
+								малышам в этих вопросах. Главное – настроиться на позитив и верить в хорошее.
+							</p>
+							<p class="doctor__list-item-description">
+								Дети постарше сталкиваются с проблемами переходного возраста, неуверенностью в себе, безответной любовью и
+								другими. Если вы понимаете, что вам с чадом необходима онлайн-консультация, вы можете выбрать специалиста на
+								нашем сайте.
+							</p>
+						</li>
+					</ul>
+				</div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="container">
+			<div class="footer__side">
+				<header class="footer__header">
+					<a class="footer__header-logo" href="#">
+						<img class="footer__header-logo-img" src="./public/assets/logo-mobile.png" alt="logo">
+						<img class="footer__header-logo-img-desktop" src="./public/assets/logo.png" alt="logo">
+					</a>
+				</header>
+				<nav class="footer__nav">
+					<ul class="footer__nav-list">
+						<li class="footer__nav-list-item">
+							<a href="#">Home</a>
+						</li>
+						<li class="footer__nav-list-item">
+							<a href="#">Blog</a>
+						</li>
+						<li class="footer__nav-list-item">
+							<a href="#">About us</a>
+						</li>
+						<li class="footer__nav-list-item">
+							<a href="#">Contact</a>
+						</li>
+						<li class="footer__nav-list-item">
+							<a href="#">Privacy Policy</a>
+						</li>
+						<li class="footer__nav-list-item">
+							<a href="#">Terms and Conditions</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="footer__side">
+				<ul class="footer__social">
+					<li class="footer__social-item">
+						<a href="#">
+							<img src="./public/assets/facebook.png" alt="facebook" />
+						</a>
+					</li>
+					<li class="footer__social-item">
+						<a href="#">
+							<img src="./public/assets/instagram.png" alt="instagram" />
+						</a>
+					</li>
+					<li class="footer__social-item">
+						<a href="#">
+							<img src="./public/assets/linkedin.png" alt="linkedin" />
+						</a>
+					</li>
+					<li class="footer__social-item">
+						<a href="#">
+							<img src="./public/assets/twitter.png" alt="twitter" />
+						</a>
+					</li>
+				</ul>
+				<div class="footer__down">
+					<p class="footer__down-text">
+						<span class="footer__down-text-img">
+							<img src="./public/assets/mail.png" alt="mail" />
+						</span>
+						<a href="mailto:info@speak.help">info@speak.help</a>
+					</p>
+					<p class="footer__down-text">
+						<span class="footer__down-text-img">
+							<img src="./public/assets/pin.png" alt="pin" />
+						</span>
+						<a href="#">33 W 60th Street, 8th FI New York, NY 10023</a>
+					</p>
+				</div>
+			</div>
+        </div>
+    </footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="./scripts/menu.js"></script>
+    <script type="module" src="./scripts/slider.js"></script>
+    <script src="./scripts/select.js"></script>
+    <script src="./scripts/arranged.js"></script>
+    <script src="./scripts/service.js"></script>
+</body>
+</html>

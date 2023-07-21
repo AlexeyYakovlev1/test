@@ -1,0 +1,418 @@
+@import "./_vars"
+
+@media screen and (min-width: 768px)
+	.container
+		padding: 0 40px
+
+	.header
+		padding-top: 25px
+
+	.welcome
+		& .container
+			flex-direction: row
+			justify-content: space-between
+			align-items: flex-start
+		&__header
+			margin-top: 50px
+			text-align: left
+		&__title
+			font-size: 32px
+			line-height: 38.4px
+		&__img
+			max-width: 342px
+			position: relative
+			left: 20px
+		&__talk
+			margin-top: 50px
+
+	.psychologist
+		&__video
+			min-width: 450px
+			height: 251px
+		&__content
+			margin-top: 51px
+		&__title
+			text-align: left
+			font-size: 28px
+
+	.workers
+		&__title
+			font-size: 28px
+		&__themes li
+			font-size: 16px
+		&__slider
+			&-list
+				gap: 0 20px
+			&-item
+				height: 244px
+				&-img
+					width: 127px
+					height: 127px
+				&-name
+					font-size: 16px
+
+	.help
+		& .container
+			display: flex
+			align-items: center
+		&__title
+			text-align: left
+
+	.advantages
+		&__list
+			padding: 0
+		& .container
+			display: flex
+			gap: 0 40px
+			border-radius: 24px
+		&__title
+			text-align: left
+		&__header-img
+			top: -120px
+		&__info
+			padding: 49px 30px 49px 0
+
+	.selection
+		&__header
+			text-align: left
+		&__content
+			display: flex
+			align-items: center
+		&__title
+			font-size: 28px
+
+	.about
+		&__title
+			font-size: 32px
+		&__header
+			&-list
+				margin-top: 50px
+				grid-template-columns: repeat(3, minmax(auto, 208px))
+				gap: 0 30px
+				&-item
+					&-title
+						font-size: 42px
+					&-text
+						margin-top: 5px
+		&__video
+			max-width: 100%
+			height: 383px
+			margin-top: 50px
+		&__assortment
+			grid-template-rows: unset
+			grid-template-columns: repeat(2, auto)
+			justify-content: space-between
+			align-items: center
+			gap: 0 20px
+
+	.arranged
+		&__header
+			&-title
+				font-size: 28px
+			&-list
+				margin-top: 67px
+
+	.services
+		&__cards
+			flex-direction: row-reverse
+			justify-content: space-between
+			gap: 0 20px
+
+	.app
+		& .container
+			display: flex
+			justify-content: space-between
+			flex-direction: row-reverse
+			align-items: center
+		&__image
+			position: relative
+			top: 50px
+
+	.reviews
+		&__title
+			text-align: left
+			font-size: 28px
+		&__slider-list
+			margin-top: 50px
+			gap: 0 20px
+			&-item
+				min-width: 50%
+
+	.doctor
+		&__header
+			text-align: left
+			&-title
+				font-size: 32px
+		&__list-item-description
+			font-size: 16px
+
+	.footer
+		&__nav-list
+			max-width: 400px
+
+@media screen and (min-width: 1024px)
+	.header
+		padding-top: 30px
+		&__logo
+			&-mobile
+				display: none
+			&-desktop
+				display: block
+		& .container
+			display: grid
+			grid-template-columns: minmax(auto, 185px) auto minmax(auto, 210px)
+			justify-content: space-between
+			align-items: center
+		&__nav
+			display: block
+		&__talk
+			display: none
+		&__right
+			grid-template-columns: 75px auto
+			gap: 0 20px
+			&-login
+				display: block
+		&__menu-mobile-open
+			display: none
+
+	.select
+		&__current
+			&-info
+				display: flex
+			&-img
+				width: 25px
+				height: 25px
+
+	.welcome
+		&__title
+			font-size: 48px
+			line-height: 57.6px
+		&__img
+			max-width: 425px
+
+	.psychologist
+		margin-top: 100px
+		&__description
+			margin-top: 37px
+			&-title
+				font-size: 24px
+			&-list li
+				font-size: 16px
+		& .container
+			display: grid
+			grid-template-columns: auto minmax(auto, 332px)
+			align-items: center
+			justify-content: space-evenly
+			gap: 0 50px
+		&__video
+			max-width: 100%
+			height: 342px
+		&__content
+			margin: 0
+		&__title
+			font-size: 32px
+		&__download-list
+			margin-top: 60px
+
+	.workers
+		&__title
+			font-size: 32px
+		&__themes
+			margin-top: 50px
+		&__slider
+			margin-top: 50px
+			&-item-img
+				width: 142px
+				height: 142px
+
+	.help
+		& .container
+			justify-content: space-between
+		&__title
+			font-size: 32px
+		&__footer-image
+			margin: 0
+
+	.advantages
+		margin-top: 150px
+		&__title
+			font-size: 32px
+		& .container
+			justify-content: space-between
+		&__header-img
+			margin-left: 30px
+			width: 211px
+			top: -50px
+		&__info
+			padding: 49px 30px
+		&__list
+			&-item
+				&-title
+					font-size: 20px
+				&-text
+					font-size: 18px
+
+	.selection
+		margin-top: 100px
+		&__title
+			font-size: 32px
+		&__subtitle
+			font-size: 18px
+		&__content
+			&-title
+				font-size: 20px
+			&-text
+				font-size: 18px
+			&-num
+				top: -5px
+				font-size: 128px
+			&-list
+				&-item
+					display: flex
+					align-items: center
+			&-description
+				padding-left: 20px
+
+	.about
+		margin-top: 100px
+		&__wrapper
+			display: flex
+			flex-direction: row-reverse
+			align-items: center
+			gap: 0 50px
+		&__header
+			&-list
+				flex: 2
+				grid-template-columns: unset
+				grid-template-rows: repeat(3, auto)
+				gap: 40px 0
+				text-align: left
+				&-item
+					text-align: left
+					&-text
+						font-size: 16px
+		&__video
+			flex: 1
+		&__assortment-content
+			&-title
+				font-size: 20px
+			&-text
+				font-size: 18px
+
+	.arranged
+		&__image
+			display: none
+		&__header
+			&-title
+				font-size: 36px
+			&-list
+				display: none
+		&__content
+			display: none
+			&-info
+				&-talk
+					margin-top: 100px
+		&__desktop
+			display: grid
+			&-image
+				display: block
+
+	.services
+		&__title
+			font-size: 36px
+		&__cards
+			&-chat
+				padding: 30px
+				&-header-title
+					gap: 0 2px
+					& h1
+						font-size: 56px
+					&-slash
+						font-size: 24px
+					&-subtitle
+						font-size: 22px
+				&-go
+					max-width: 138px
+			&-audio
+				padding: 30px
+				&-tag
+					font-size: 16px
+				&-header
+					&-payment
+						&-price
+							font-size: 56px
+						&-slash
+							font-size: 24px
+						&-time
+							font-size: 24px
+				&-footer
+					display: grid
+					grid-template-columns: auto minmax(auto, 138px)
+					gap: 0 20px
+					&-price
+						grid-template-columns: 100px minmax(auto, 200px)
+						&-counter
+							&-value
+								max-width: 40px
+							&-plus
+								right: 10px
+					&-result
+						&-price
+							margin-left: 30px
+
+	.app
+		&__image
+			display: none
+			&-desktop
+				display: block
+
+	.psychologist
+		&__content
+			flex-basis: 382px
+
+	.reviews
+		&__title
+			font-size: 32px
+		&__slider-list
+			&-item
+				display: grid
+				grid-template-columns: 100px auto
+				gap: 0 20px
+				align-items: flex-start
+				max-width: 100%
+				&-description
+					font-size: 16px
+				&-avatar-desktop
+					display: block
+					width: 100px
+					height: 100px
+				&-header
+					&-avatar
+						display: none
+					&-info
+						width: 100%
+						flex-direction: row-reverse
+						justify-content: space-between
+						align-items: flex-start
+
+	.doctor
+		&__list
+			display: none
+			&-item-title
+				font-size: 20px
+		&__content-desktop
+			display: grid
+
+	.footer
+		& .container
+			flex-direction: row
+			justify-content: space-between
+		&__header
+			&-logo-img
+				display: none
+				&-desktop
+					display: block
+
+@media screen and (min-width: 1920px)
+	.welcome__img
+		max-width: 637px

@@ -630,7 +630,7 @@ a {
   transition: all 0.2s ease;
   position: absolute;
   width: 100%;
-  top: -100%;
+  top: -200%;
   right: 0;
   left: 0;
   z-index: 99;

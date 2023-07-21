@@ -7,6 +7,6 @@ $(".header__menu-mobile-open").click(() => {
 });
 
 $(".header__menu-mobile-close").click(() => {
-	headerMenuMobileWrapper.css("top", "-100%");
+	headerMenuMobileWrapper.css("top", "-200%");
 	body.css("overflow", "visible");
 });

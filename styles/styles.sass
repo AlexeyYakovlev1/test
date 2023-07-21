@@ -48,6 +48,8 @@
 			cursor: pointer
 			width: 35px
 			height: 35px
+			background-color: rgba(255,255,255,.5)
+			backdrop-filter: blur(8px)
 		&-wrapper
 			transition: all .2s ease
 			position: absolute
@@ -56,16 +58,16 @@
 			right: 0
 			left: 0
 			z-index: 99
-			height: 100vh
 		&-content
-			background-color: rgba(255,255,255,.5)
-			backdrop-filter: blur(8px)
 			display: flex
 			flex-direction: column
 			padding: 10px
 			align-items: flex-end
 			gap: 100px 0
 			&-list
+				padding: 10px 0
+				background-color: rgba(255,255,255,.5)
+				backdrop-filter: blur(8px)
 				margin: 0 auto
 				display: flex
 				flex-direction: column

@@ -66,6 +66,12 @@
   .help__title {
     text-align: left;
   }
+  .advantages {
+    background: none;
+  }
+  .advantages .container {
+    background-color: rgba(0, 185, 182, 0.1);
+  }
   .advantages__list {
     padding: 0;
   }
@@ -978,8 +984,6 @@ a {
 .advantages {
   margin-top: 130px;
   padding: 0 20px;
-}
-.advantages .container {
   background-color: rgba(0, 185, 182, 0.1);
 }
 .advantages__header {
@@ -1793,6 +1797,12 @@ a {
   }
   .help__title {
     text-align: left;
+  }
+  .advantages {
+    background: none;
+  }
+  .advantages .container {
+    background-color: rgba(0, 185, 182, 0.1);
   }
   .advantages__list {
     padding: 0;

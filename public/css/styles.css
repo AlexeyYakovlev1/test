@@ -40,6 +40,9 @@
     text-align: left;
     font-size: 28px;
   }
+  .psychologist__download-list {
+    justify-content: unset;
+  }
   .workers__title {
     font-size: 28px;
   }
@@ -834,6 +837,7 @@ a {
   width: 100%;
   margin-top: 40px;
   display: flex;
+  justify-content: center;
   gap: 0 20px;
 }
 
@@ -1771,6 +1775,9 @@ a {
   .psychologist__title {
     text-align: left;
     font-size: 28px;
+  }
+  .psychologist__download-list {
+    justify-content: unset;
   }
   .workers__title {
     font-size: 28px;
